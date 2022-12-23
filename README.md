@@ -18,7 +18,7 @@ a. Date format: Change the date format to yyyy-MM-dd as this is the default form
 b. Empty values in customer_score column: Change empty values to NULL values. Use Update command and where clause to fill the empty values to null values.
 
 **Step 3:** <br>
-**_Basic EDA:_ **<br>
+**_Basic EDA:_** <br>
 a. Finding the number of columns, rows of the table. <br>
 b. Finding Distinct values in some of the columns. (Finding different channel of calls) <br>
 c. Using Group By function to find the distribution of different categories of how the count of calls is distributed. <br>
