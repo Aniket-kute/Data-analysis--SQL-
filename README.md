@@ -3,7 +3,7 @@
 ### Using SQL to clean and analyze data and further visualize it using Power BI/ Tableau
 Dataset: https://data.world/markbradbourne/rwfd-real-world-fake-data/workspace/file?filename=Call+Center.csv 
 
-####Agenda : Import data into MYSQL Workbench -> Cleanse and Analyze in Workbench -> Visualize it in Power BI/ Tableau
+#### Agenda : Import data into MYSQL Workbench -> Cleanse and Analyze in Workbench -> Visualize it in Power BI/ Tableau
 
  -----
 
