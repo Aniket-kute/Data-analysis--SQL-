@@ -5,19 +5,27 @@ Dataset: https://data.world/markbradbourne/rwfd-real-world-fake-data/workspace/f
 
 ####Agenda : Import data into MYSQL Workbench -> Cleanse and Analyze in Workbench -> Visualize it in Power BI/ Tableau
 
-Step 1:
-Importing the data: To check if the data is imported run a select query to see the first few rows
+ -----
 
-Step 2:
-Cleaning the data: 
-a. Date format: Change the date format to yyyy-MM-dd as this is the default format for MySQL.
-    How to fix: We use str_to_date function to convert the string to required date format. Before this we need to change the SQL_SAFE_UPDATES to 0 as we not using the where clause within the update command. next we turn back the safe update mode to 1 again
-b. Empty values in score column: Change empty values to NULL values. Use Update command and where clause to fill the empty values to null values.
+**Step 1:**
+_Importing the data:_ To check if the data is imported run a select query to see the first few rows
 
-Step 3: 
-Basic EDA:
-a. Finding the number of columns, rows of the table. 
-b. Finding distinct values in some of the columns. 
-c. Using group by function to find the distribution fo different categories of how the count of calls is distributed
-d. 
+**Step 2:**
+_Cleaning the data:_ 
+a. Date format: Change the date format to yyyy-MM-dd as this is the default format for MySQL. <br> 
+&nbsp;&nbsp; How to fix: We use str_to_date function to convert the string to required date format. Before this we need to change the SQL_SAFE_UPDATES to 0 as we not using the where clause within the update command. next we turn back the safe update mode to 1 again <br> 
+b. Empty values in customer_score column: Change empty values to NULL values. Use Update command and where clause to fill the empty values to null values.
+
+**Step 3:** 
+_Basic EDA:_
+a. Finding the number of columns, rows of the table. <br>
+b. Finding Distinct values in some of the columns. (Finding different channel of calls) <br>
+c. Using Group By function to find the distribution of different categories of how the count of calls is distributed. <br>
+d. Using Aggregate functions to find the min, max, average values for some of the columns (For call duration column) <br>
+e. Using windows functions to analyze partitions within the data. (Used this to find the maximum call duration per day) <br>
+
+**Step 4:**
+_Tableau Visualization_
+
+
 
