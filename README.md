@@ -13,9 +13,11 @@ To check if the data is imported, I ran a select query to see the first 100 rows
 
 **Step 2:** <br>
 **_Cleaning the data:_** <br>
-a. Date format: Change the date format to yyyy-MM-dd as this is the default format for MySQL. <br> 
+&nbsp;&nbsp; a. Date format: <br>
+Change the date format to yyyy-MM-dd as this is the default format for MySQL. <br> 
 &nbsp;&nbsp; How to fix: We use str_to_date function to convert the string to required date format. Before this we need to change the SQL_SAFE_UPDATES to 0 as we not using the where clause within the update command. next we turn back the safe update mode to 1 again <br> 
-b. Empty values in customer_score column: Change empty values to NULL values. Use Update command and where clause to fill the empty values to null values.
+&nbsp;&nbsp; b. Empty values in customer_score column: <br>
+Change empty values to NULL values. Use Update command and where clause to fill the empty values to null values.
 
 **Step 3:** <br>
 **_Basic EDA:_** <br>
