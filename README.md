@@ -38,7 +38,7 @@ e. Using **windows functions** to analyze partitions within the data. (Used this
 **_Power BI Visualization_**
 -----
 
-<img src="images/powerbi.png" WIDTH="1000">
+<img src="images/powerbi.png" WIDTH="1000" HEIGHT="1000">
 
 <br>
 
