@@ -8,7 +8,8 @@ Dataset: https://data.world/markbradbourne/rwfd-real-world-fake-data/workspace/f
  -----
 
 **Step 1:**
-_Importing the data:_ To check if the data is imported, I ran a select query to see the first 100 rows
+_Importing the data:_ <br>
+To check if the data is imported, I ran a select query to see the first 100 rows
 
 **Step 2:**
 _Cleaning the data:_ <br>
