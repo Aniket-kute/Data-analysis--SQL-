@@ -31,7 +31,7 @@ e. Using **windows functions** to analyze partitions within the data. (Used this
 **_Tableau Visualization_**
 -----
 
-<img src="Data-analysis--SQL-/images/tableau_img.png" WIDTH="1000">
+<img src="images/tableau_img.png" WIDTH="1000">
 
 <br>
 
