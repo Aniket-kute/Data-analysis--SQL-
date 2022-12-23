@@ -11,13 +11,13 @@ Dataset: https://data.world/markbradbourne/rwfd-real-world-fake-data/workspace/f
 _Importing the data:_ To check if the data is imported run a select query to see the first few rows
 
 **Step 2:**
-_Cleaning the data:_ 
+_Cleaning the data:_ <br>
 a. Date format: Change the date format to yyyy-MM-dd as this is the default format for MySQL. <br> 
 &nbsp;&nbsp; How to fix: We use str_to_date function to convert the string to required date format. Before this we need to change the SQL_SAFE_UPDATES to 0 as we not using the where clause within the update command. next we turn back the safe update mode to 1 again <br> 
 b. Empty values in customer_score column: Change empty values to NULL values. Use Update command and where clause to fill the empty values to null values.
 
 **Step 3:** 
-_Basic EDA:_
+_Basic EDA:_ <br>
 a. Finding the number of columns, rows of the table. <br>
 b. Finding Distinct values in some of the columns. (Finding different channel of calls) <br>
 c. Using Group By function to find the distribution of different categories of how the count of calls is distributed. <br>
